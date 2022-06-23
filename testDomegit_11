@@ -18,9 +18,8 @@ public class JDBCDemo {
         Statement stmt=conn.createStatement();
         int count =stmt.executeUpdate(sql);
         System.out.println(count);
-        System.out.println(count);
         stmt.close();
         conn.close();
     }
 }
-//是的是的
+//不对不对
